@@ -25,3 +25,7 @@ echo "What is your age?"
 read age
 
 echo "Wow $name, you are $age years old!"
+
+#Indexed Array
+fruits=("apple" "banana" "cherry")
+echo ${fruits}  # Outputs: banana
