@@ -11,3 +11,12 @@ then
 else
 	echo "You are a minor, go home.";
 fi
+
+# 2. String comparison:
+name="Tamara" 
+if [[ "$name" = "Tamara" ]]
+then
+	echo "Hello,Tamara"
+else
+	echo "You are not Tamara"
+fi
