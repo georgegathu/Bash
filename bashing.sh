@@ -1,5 +1,5 @@
-# Rename all .txt files to .bak
-for file in *.txt; do
-  mv "$file" "${file%.txt}.bak"
+# Rename all .jpeg files to .png
+for file in *.jpeg; do
+  mv "$file" "${file%.jpeg}.png"
 done
 echo "Files renamed Successfully!"
